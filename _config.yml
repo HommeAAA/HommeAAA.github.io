@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Homme's Blog
 subtitle: ''
 description: ''
 keywords:
-author: Homing
+author: Homme
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hommeaaa.github.io
 root: /
 permalink: :title/
 permalink_defaults:
@@ -98,20 +98,29 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: 
+    github: git@github.com:HommeAAA/HommeAAA.github.io.git
+  branch: master
 
 # douban
 ## Docs: https://github.com/mythsman/hexo-douban
 douban:
   user: 65162942
-  builtin: false
-  book:
-    title: 'This is my book title'
-    quote: 'This is my book quote'
+  builtin: true
   movie:
     title: '我的观影记录'
-    quote: 'https://www.douban.com/people/65162942/'
-  game:
-    title: 'This is my game title'
-    quote: 'This is my game quote'
-  timeout: 10000 
+    quote: '豆瓣主页: https://www.douban.com/people/65162942/ 欢迎互关~'
+  timeout: 10000
+
+# search
+## Docs: https://github.com/wzpan/hexo-generator-search
+search:
+  path: search.xml
+  field: post
+  content: true
+
+# sitemap
+## Docs: https://liwengo.top/2019/10/11/google-search-console/
+sitemap:
+  path: sitemap.xml
