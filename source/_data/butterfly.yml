@@ -9,8 +9,10 @@ menu:
   分类: /categories/ || fa fa-folder-open
   标签: /tags/ || fa fa-tags
   时间轴: /archives/ || fa fa-archive
-  算法: /categories/算法 || fa fa-folder-open
-  编程: /categories/编程 || fa fa-folder-open
+  算法 || fa fa-list: 
+    - LeetCode || /categories/算法 || fa fa-code
+  编程 || fa fa-list: 
+    - Java基础 || /categories/编程 || fa fa-code
 #  链接: /link/ || fa fa-link
 #  关于: /about/ || fa fa-heart
   电影 || fa fa-list:
