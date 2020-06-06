@@ -107,7 +107,7 @@ deploy:
 ## Docs: https://github.com/mythsman/hexo-douban
 douban:
   user: 65162942
-  builtin: false
+  builtin: true
   movie:
     title: '我的观影记录'
     quote: '豆瓣主页: https://www.douban.com/people/65162942/ 欢迎互关~'
