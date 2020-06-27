@@ -33,7 +33,7 @@ menu:
 
 # Highlight theme
 # ---------------
-highlight_theme: light # default / darker / pale night / light / ocean
+highlight_theme: darker # default / darker / pale night / light / ocean
 highlight_copy: true #代码复制按钮
 highlight_lang: true #代码语言提示
 highlight_shrink: false # true 全部代码框不展开，需点击 '>' 打开 / false 代码框展开，有'>'点击按钮 | none 代码框展开，不展示 '>' 按钮
@@ -45,7 +45,7 @@ code_word_wrap: false
 # copyright 复制的内容加上版权信息
 copy:
   enable: true # true 开启 / false 禁止
-  copyright: true
+  copyright: false
 
 # social settings
 # formal:
@@ -188,7 +188,7 @@ auto_open_sidebar:
   enable: true
 
 post_copyright:
-  enable: true
+  enable: false
   decode: false
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
